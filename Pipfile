@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "==1.1.2"
+jinja2 = "==3.0.3"
+itsdangerous = "==1.1.0"
+werkzeug = "==1.0.1"
+nltk = "*"
+pypdf2 = "*"
+reportlab = "*"
+selenium = "*"
+webdriver-manager = "*"
+matplotlib = "*"
+python-whois = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
